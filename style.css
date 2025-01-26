@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(to bottom right, #48b9e2, #7ed349,#bbdb2f,#e4951e,#e62d09);
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(45deg, #601313, hsl(0, 76%, 25%),#dc9e0c);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffeb3b;
+}
+
+.featured-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.featured-card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.featured-card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #0056b3, #003f8a);
+}
+
+.sidebar {
+    background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-link {
+    text-decoration: none;
+    width: 250px;
+    color: #343a40;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.category-link:hover {
+    color: #fefefe;
+    transform: scale(1.1);
+}
+
+.sidebar .btn-outline-warning {
+    background: linear-gradient(to right, #f65151, #ffc107);
+    border: none;
+    margin-bottom: 10px;
+}
+
+.sidebar .btn-outline-warning:hover {
+    background: linear-gradient(to right, #ffc107, #ff9800);
+}
+
+h2 {
+    color: #343a40;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: linear-gradient(45deg, #343a40, #495057);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffeb3b;
+}
